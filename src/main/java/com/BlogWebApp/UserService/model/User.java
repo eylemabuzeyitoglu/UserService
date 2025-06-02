@@ -5,12 +5,14 @@ import jakarta.validation.constraints.Email;
 import lombok.AllArgsConstructor;
 import jakarta.validation.constraints.NotBlank;
 import lombok.Getter;
+import lombok.NoArgsConstructor;
 import lombok.Setter;
 
 
 @Getter
 @Setter
 @AllArgsConstructor
+@NoArgsConstructor
 @Entity
 public class User {
 
