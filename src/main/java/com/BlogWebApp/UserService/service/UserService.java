@@ -1,7 +1,7 @@
 package com.BlogWebApp.UserService.service;
 
-import com.BlogWebApp.Common.dto.UserRequest;
-import com.BlogWebApp.Common.dto.UserResponse;
+import com.BlogWebApp.Common.dto.request.UserRequest;
+import com.BlogWebApp.Common.dto.response.UserResponse;
 import com.BlogWebApp.Common.security.JwtUtil;
 import com.BlogWebApp.UserService.exceptions.UserNotFoundException;
 import com.BlogWebApp.UserService.mapper.UserMapper;

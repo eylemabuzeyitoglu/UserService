@@ -1,8 +1,8 @@
 package com.BlogWebApp.UserService.mapper;
 
 
-import com.BlogWebApp.Common.dto.UserResponse;
-import com.BlogWebApp.Common.dto.UserRequest;
+import com.BlogWebApp.Common.dto.request.UserRequest;
+import com.BlogWebApp.Common.dto.response.UserResponse;
 import com.BlogWebApp.UserService.model.User;
 import org.springframework.stereotype.Component;
 

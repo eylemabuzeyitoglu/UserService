@@ -1,6 +1,7 @@
 package com.BlogWebApp.UserService.controller;
 
-import com.BlogWebApp.Common.dto.UserRequest;
+
+import com.BlogWebApp.Common.dto.request.UserRequest;
 import com.BlogWebApp.UserService.service.UserService;
 import org.springframework.web.bind.annotation.*;
 
@@ -30,7 +31,7 @@ public class UserController {
         userService.deleteUser(userId);
     }
 
-    @PatchMapping("/{id}")
+    @PatchMapping("/{id}/reset-password")
     public void resetPassword(@PathVariable Long userId,
                               @RequestParam String password){
         userService.resetPassword(userId, password);

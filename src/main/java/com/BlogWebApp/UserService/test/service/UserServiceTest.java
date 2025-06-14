@@ -1,7 +1,8 @@
 package com.BlogWebApp.UserService.test.service;
 
-import com.BlogWebApp.Common.dto.UserRequest;
-import com.BlogWebApp.Common.dto.UserResponse;
+
+import com.BlogWebApp.Common.dto.request.UserRequest;
+import com.BlogWebApp.Common.dto.response.UserResponse;
 import com.BlogWebApp.UserService.events.UserDeletedEvent;
 import com.BlogWebApp.UserService.exceptions.UserNotFoundException;
 import com.BlogWebApp.UserService.mapper.UserMapper;
